@@ -17,6 +17,7 @@ type TradeExecution struct {
 	OrderType  string
 	OrderPrice float64
 	Maker      int
+	CID        int64
 }
 
 func FromRaw(raw []interface{}) (te *TradeExecution, err error) {
@@ -34,10 +35,11 @@ func FromRaw(raw []interface{}) (te *TradeExecution, err error) {
 		ExecPrice:  convert.F64ValOrZero(raw[5]),
 	}
 
-	if len(raw) >= 9 {
+	if len(raw) >= 11 {
 		te.OrderType = convert.SValOrEmpty(raw[6])
 		te.OrderPrice = convert.F64ValOrZero(raw[7])
 		te.Maker = convert.ToInt(raw[8])
+		te.CID = convert.I64ValOrZero(raw[11])
 	}
 
 	return
