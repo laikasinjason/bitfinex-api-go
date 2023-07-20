@@ -20,6 +20,7 @@ type TradeExecutionUpdate struct {
 	Maker       int
 	Fee         float64
 	FeeCurrency string
+	CID         int64
 }
 
 type Snapshot struct {
@@ -52,6 +53,7 @@ func FromRaw(raw []interface{}) (tu *TradeExecutionUpdate, err error) {
 			Maker:       convert.ToInt(raw[8]),
 			Fee:         convert.F64ValOrZero(raw[9]),
 			FeeCurrency: convert.SValOrEmpty(raw[10]),
+			CID:         convert.I64ValOrZero(raw[11]),
 		}
 		return
 	}
