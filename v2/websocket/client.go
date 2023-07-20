@@ -12,8 +12,8 @@ import (
 	"github.com/gorilla/websocket"
 	"github.com/op/go-logging"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/common"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/utils"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/common"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/utils"
 
 	"crypto/hmac"
 	"crypto/sha512"

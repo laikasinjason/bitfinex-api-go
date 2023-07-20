@@ -9,11 +9,11 @@ import (
 	"errors"
 	"net"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/event"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/mux/msg"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/utils"
 	"github.com/gobwas/ws"
 	"github.com/gobwas/ws/wsutil"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/event"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/mux/msg"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/utils"
 )
 
 type Client struct {

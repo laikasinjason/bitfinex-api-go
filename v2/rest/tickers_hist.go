@@ -5,8 +5,8 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/convert"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/tickerhist"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/convert"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/tickerhist"
 )
 
 // TickerHistoryService manages the Tickers History endpoint.

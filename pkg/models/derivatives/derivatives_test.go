@@ -3,7 +3,7 @@ package derivatives_test
 import (
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/derivatives"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/derivatives"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

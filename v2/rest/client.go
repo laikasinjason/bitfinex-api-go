@@ -11,8 +11,8 @@ import (
 	"net/http"
 	"net/url"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/common"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/utils"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/common"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/utils"
 )
 
 var productionBaseURL = "https://api-pub.bitfinex.com/v2/"

@@ -4,7 +4,7 @@ import (
 	"path"
 	"strings"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/currency"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/currency"
 )
 
 // CurrenciesService manages the conf endpoint.

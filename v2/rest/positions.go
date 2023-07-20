@@ -1,9 +1,9 @@
 package rest
 
 import (
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/common"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/notification"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/position"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/common"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/notification"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/position"
 )
 
 // PositionService manages the Position endpoint.

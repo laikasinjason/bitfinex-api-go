@@ -5,12 +5,12 @@ import (
 	"fmt"
 	"path"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/common"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/fundingcredit"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/fundingloan"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/fundingoffer"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/fundingtrade"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/notification"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/common"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/fundingcredit"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/fundingloan"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/fundingoffer"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/fundingtrade"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/notification"
 )
 
 // KeepFundingRequest - data structure for constructing keep funding request payload

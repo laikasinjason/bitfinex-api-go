@@ -3,7 +3,7 @@ package fundingcredit_test
 import (
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/fundingcredit"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/fundingcredit"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

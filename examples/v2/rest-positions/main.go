@@ -5,9 +5,9 @@ import (
 	"log"
 	"os"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/position"
-	"github.com/bitfinexcom/bitfinex-api-go/v2/rest"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/position"
+	"github.com/laikasinjason/bitfinex-api-go/v2/rest"
 )
 
 // Set BFX_API_KEY and BFX_API_SECRET:

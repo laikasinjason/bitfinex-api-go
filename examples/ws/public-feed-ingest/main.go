@@ -3,13 +3,13 @@ package main
 import (
 	"log"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/book"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/candle"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/event"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/status"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/ticker"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/trades"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/mux"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/book"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/candle"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/event"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/status"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/ticker"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/trades"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/mux"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/position"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/position"
 	"github.com/stretchr/testify/assert"
 )
 

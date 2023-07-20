@@ -4,7 +4,7 @@ import (
 	"errors"
 	"strings"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/convert"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/convert"
 )
 
 // FromWSRaw acts as a relay for public trades channel to abstract complexity from msg.

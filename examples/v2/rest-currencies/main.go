@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/bitfinexcom/bitfinex-api-go/v2/rest"
+	"github.com/laikasinjason/bitfinex-api-go/v2/rest"
 )
 
 func main() {

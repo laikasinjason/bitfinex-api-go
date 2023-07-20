@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/bitfinexcom/bitfinex-api-go/v2/rest"
+	"github.com/laikasinjason/bitfinex-api-go/v2/rest"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

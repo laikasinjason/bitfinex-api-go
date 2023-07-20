@@ -5,8 +5,8 @@ import (
 	_ "net/http/pprof"
 	"os"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/trade"
-	"github.com/bitfinexcom/bitfinex-api-go/v2/websocket"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/trade"
+	"github.com/laikasinjason/bitfinex-api-go/v2/websocket"
 	"github.com/op/go-logging"
 )
 

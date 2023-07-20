@@ -6,11 +6,11 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/book"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/candle"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/derivatives"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/ticker"
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/trade"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/book"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/candle"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/derivatives"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/ticker"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/trade"
 )
 
 type messageFactory interface {

@@ -3,7 +3,7 @@ package fundingcredit
 import (
 	"fmt"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/convert"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/convert"
 )
 
 type Credit struct {

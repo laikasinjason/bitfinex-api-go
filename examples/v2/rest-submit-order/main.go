@@ -4,8 +4,8 @@ import (
 	"os"
 	"time"
 
-	"github.com/bitfinexcom/bitfinex-api-go/pkg/models/order"
-	"github.com/bitfinexcom/bitfinex-api-go/v2/rest"
+	"github.com/laikasinjason/bitfinex-api-go/pkg/models/order"
+	"github.com/laikasinjason/bitfinex-api-go/v2/rest"
 )
 
 // Set BFX_APIKEY and BFX_SECRET as :
